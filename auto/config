@@ -2,8 +2,10 @@
 set -e
 
 if [ -z "$CACHER" ]; then
-  MIRROR="http://ftp.debian.org/debian/"
+  #MIRROR="http://ftp.debian.org/debian/"
   MIRROR_SECURITY="http://security.debian.org/"
+
+  MIRROR="http://10.8.0.113/debian/"
 else
   MIRROR="http://$CACHER/ftp.debian.org/debian/"
   MIRROR_SECURITY="http://$CACHER/security.debian.org/"
@@ -74,6 +76,7 @@ elif [ "$ARCH" == "i386" ]; then
 	--parent-mirror-chroot $MIRROR \
 	--parent-mirror-chroot-security $MIRROR_SECURITY \
 	--mirror-debian-installer $MIRROR \
+	--verbose \
 	"${@}"
 
 fi
