@@ -5,9 +5,9 @@
 #deb-src http://repo.huayra.conectarigualdad.gob.ar/huayra pampero-updates main contrib non-free
 
 
-deb http://10.8.0.114/huayra/ pampero main contrib non-free
-deb-src http://10.8.0.114/huayra pampero main contrib non-free
+deb http://10.9.0.36/huayra/ pampero main contrib non-free
+deb-src http://10.9.0.36/huayra pampero main contrib non-free
 
-deb http://10.8.0.114/huayra/ pampero-updates main contrib non-free
-deb-src http://10.8.0.114/huayra pampero-updates main contrib non-free
+deb http://10.9.0.36/huayra/ pampero-updates main contrib non-free
+deb-src http://10.9.0.36/huayra pampero-updates main contrib non-free
 

@@ -2,7 +2,7 @@
 Architecture: i386
 Archive-Areas: main contrib non-free
 Distribution: wheezy
-Mirror-Bootstrap: http://10.8.0.113/debian/
+Mirror-Bootstrap: http://10.9.0.35/debian/
 
 [FIXME]
 Configuration-Version: 4.0~alpha37

@@ -5,7 +5,7 @@ if [ -z "$CACHER" ]; then
   #MIRROR="http://ftp.debian.org/debian/"
   MIRROR_SECURITY="http://security.debian.org/"
 
-  MIRROR="http://10.8.0.113/debian/"
+  MIRROR="http://10.9.0.35/debian/"
 else
   MIRROR="http://$CACHER/ftp.debian.org/debian/"
   MIRROR_SECURITY="http://$CACHER/security.debian.org/"
